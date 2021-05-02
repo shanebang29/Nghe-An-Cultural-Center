@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nghe An Cultural Center</title>
+    <link rel="shortcut icon" href="../IMG/Logo_NA.png">
+    <!-- ================LIBRARY================ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../CSS/FontAwesomePro/FontAwesome.Pro.5.15.2.Web/css/all.css">
+    <link rel="stylesheet" href="../JS/slickjs/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="../evo-calendar/css/evo-calendar.css"/>
+        <link rel="stylesheet" type="text/css" href="../evo-calendar/css/evo-calendar.royal-navy.css"/>
+    <!-- ================STYLE================== -->
+    <link rel="stylesheet" href="../CSS/Home.css">
+    <link rel="stylesheet" href="../CSS/Responsive/Home_reponsive.css">
+    <!-- ================FONT FAMILY============== -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ==================SIDE BAR MENU============== -->
+    <div class="btn">
+        <span class="fas fa-bars"></span>
+    </div>
+    <nav class="sidebar">
+        <div class="logo" style="background: #004e96">
+            <img src="../IMG/Logo_NA.png" alt="">
+        </div>
+        <ul>
+            <li class="active"><a href="#">HOME</a></li>
+            <li>
+                <a href="#" class="feat-btn">GIỚI THIỆU
+                    
+                </a>
+            </li>
+            <li>
+                <a href="#" class="serv-btn">HOẠT ĐỘNG
+                    <span class="fas fa-caret-down second"></span>
+                </a>
+                <ul class="serv-show">
+                    <li><a href="#">Sự kiện - hợp tác văn hóa</a></li>
+                    <li><a href="#">Nghệ thuật quần chúng</a></li>
+                    <li><a href="#">Tuyên truyền cổ động - Triển lãm</a></li>
+                    <li><a href="#">Câu lạc bộ</a></li>
+                    <li><a href="#">Hành chính tổng hợp</a></li>
+                    <li><a href="#">Dịch vụ khác</a></li>
+                </ul>
+            </li>
+            <li><a href="#">SỰ KIỆN</a></li>
+            <li><a href="#">TIN TỨC</a></li>
+            <li><a href="#">GÓC BẠN ĐỌC</a></li>
+            <li>
+                <a href="#">LIÊN HỆ
+                </a>
+            </li>
+            <div class="search-box relative">
+                <input type="text" placeholder="Tìm kiếm...">
+                <button><i class="far fa-search" style="color: white"></i></button>
+            </div>
+        </ul>
+        
+    </nav>
+      
+  
+    <!-- ==================LOGO AND NAME========================== -->
+    <div class="dark-mode" style="height: 0px;"></div>
+    <div class="header flex items-center">
+        <div class="container grid grid-cols-12 flex flex-row items-center">
+            <div class="logo col-span-1">
+                <a href=""><img src="../IMG/Logo_NA.png" alt="Logo"></a>
+            </div>
+            <div class="title col-span-11 leading-3 flex flex-col justify-center">
+                <h1 class="text-center text-4xl font-black ">TRUNG TÂM VĂN HÓA</h1>
+                <h1 class="text-center text-4xl font-black ">TỈNH NGHỆ AN</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ===================NAVIGATION BAR================== -->
+    <div class="blue-background w-full flex flex-row">
+        <div class="container navbar flex py-0 ">
+            <ul class="font-semibold relative">
+                <li><a href="">HOME</a></li>
+                <li><a href="">GIỚI THIỆU</a></li>
+                <li class="drop-here"><a href="">HOẠT ĐỘNG</a>
+                    <div class="dropdown d-none flex flex-col">
+                        <a href="#">Sự kiện - hợp tác văn hóa</a>
+                        <a href="#">Nghệ thuật quần chúng</a>
+                        <a href="#">Tuyên truyền cổ động - Triển lãm</a>
+                        <a href="#">Câu lạc bộ</a>
+                        <a href="#">Hành chính tổng hợp</a>
+                    </div>
+                </li>
+                <li ><a href="">SỰ KIỆN</a></li>
+                <li><a href="">TIN TỨC</a></li>
+                <li><a href="">GÓC BẠN ĐỌC</a></li>
+                <li><a href="">LIÊN HỆ</a></li>
+
+            </ul>
+            <a href="" class="ml-auto"><i class="fab fa-facebook-f"></i></a>
+            <a href="" class="ml-2.5"><i class="fab fa-twitter"></i></a>
+            <a href="" class="ml-2.5"><i class="fab fa-instagram"></i></a>
+            <a href="" class="ml-2.5"><i class="fab fa-youtube"></i></a>
+            <button class="search-button ml-3">
+                <i class="far fa-search"></i>
+                <i class="fal fa-times"></i>
+            </button>
+            <div class="search-form flex items-center justify-center">
+                <input type="text" placeholder="Tìm kiếm....">
+                <button type="submit">
+                    <i class="far fa-search"></i>
+                </button>
+            </div>
+        </div>
+        
+        
+    </div>
+    <!-- ====================MAIN CONTENTS================ -->
+        <!-- ===================BANNER================ -->
+    <div class="container banner pt-4">
+        <div class="banner-slide ">
+            <div class="slide-items relative">
+                <img src="../IMG/Le Hoi LSNA.jpg" alt="">
+                <div class="capture">
+                    <a href=""><h1 class="mb-3 text-3xl font-semibold">Lễ hội Làng Sen 2020</h1></a>
+                    <a href=""><h6>Lễ hội Làng Sen kỷ niệm 130 năm Ngày sinh Chủ tịch Hồ Chí Minh</h6></a>
+                </div>
+            </div>
+            <div class="slide-items relative">
+                <img src="../IMG/cualotietmuc11_2019042623559.jpg" alt="">
+                <div class="capture">
+                    <a href=""><h1 class="mb-3 text-3xl font-semibold">Lễ hội Du lịch Cửa Lò 2019</h1></a>
+                    <a href=""><h6>Tưng bừng khai mạc Lễ hội Du lịch Cửa Lò 2019</h6></a>
+                </div>
+            </div>
+            <div class="slide-items relative">
+                <img src="../IMG/dai-nhac-hoi-chao-nam-moi-habeco-5.jpg" alt="">
+                <div class="capture">
+                    <a href=""><h1 class="mb-3 text-3xl font-semibold">Đại nhạc hội chào năm mới 2020</h1></a>
+                    <a href=""><h6>Đại tiệc âm nhạc Chào năm mới 2020 - Vị bia làm nên sắc tết cùng HABECO</h6></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="features grid grid-cols-2 lg:grid-cols-6">
+            <div class="items col-span-1">
+                <div class="flex justify-center items-center"><a href=""><i class="fad fa-calendar-star"></i></a></div>
+                <div><a href="#">Sự kiện - Hợp tác văn hóa</a></div>
+            </div>
+            <div class="items col-span-1">
+                <div class="flex justify-center items-center"><a href=""><i class="fas fa-user-music"></i></a></div>
+                <div><a href="#">Nghệ thuật quần chúng</a></div>
+            </div>
+            <div class="items col-span-1">
+                <div class="flex justify-center items-center"><a href=""><i class="fad fa-bullhorn"></i></a></div>
+                <div><a href="#">Tuyên truyền - Triển lãm</a></div>
+            </div>
+            <div class="items col-span-1">
+                <div class="flex justify-center items-center"><a href=""><i class="fad fa-club"></i></a></div>
+                <div><a href="#">Câu lạc bộ</a></div>
+            </div>
+            <div class="items col-span-1">
+                <div class="flex justify-center items-center"><a href=""><i class="fad fa-gavel"></i></a></div>
+                <div><a href="#">Hành chính tổng hợp</a></div>
+            </div>
+            <div class="items col-span-1">
+                <div class="flex justify-center items-center"><a href=""><i class="fab fa-microblog"></i></a></div>
+                <div><a href="#">Dịch vụ khác</a></div>
+            </div>
+        </div>
+    </div>
+    <!-- ==================CAC HOAT DONG============= -->
+    <div class="container title flex justify-center items-center p-5">
+        <h1 class="text-4xl text-center">SỰ KIỆN VĂN HÓA TỈNH NGHỆ AN</h1>
+    </div>
+    <div class="card grid grid-cols-2 lg:grid-cols-4 gap-8 mx-auto">
+        <div class="card-items col-span-2 relative">
+            <img src="../IMG/dai-nhac-hoi-chao-nam-moi-habeco-5.jpg" alt="">
+            <div class="spotlight absolute p-2.5 bottom-0 left-0">
+                <a class="title text-2xl">Chương trình nghệ thuật</a>
+                <div class="date-mentor flex flex-row">
+                    <p class="date mr-1">28/04/2021</p>
+                    <p class="mentor"> | đăng bởi <a href="">Mạnh Trần</p></a> 
+                </div>
+            </div>
+        </div>
+        <div class="card-items col-span-1 relative">
+            <div class="img h-1/2">
+                <img src="../IMG/Le Hoi LSNA.jpg" alt="">
+            </div>
+            <div class="card-capture h-1/2">
+                <a href=""><h1>SỰ KIỆN - HỢP TÁC VĂN HÓA</h1></a>
+                <a href=""><h2>Nhiều hoạt động văn hóa, nghệ thuật chào mừng 30-4</h2></a>
+            </div>
+        </div>
+        <div class="card-items col-span-1 relative">
+            <div class="img h-1/2">
+                <img src="../IMG/Le Hoi LSNA.jpg" alt="">
+            </div>
+            <div class="card-capture h-1/2">
+                <a href=""><h1>SỰ KIỆN - HỢP TÁC VĂN HÓA</h1></a>
+                <a href=""><h2>Nhiều hoạt động văn hóa, nghệ thuật chào mừng 30-4</h2></a>
+            </div>
+        </div>
+        <div class="card-items col-span-1 relative">
+            <div class="img h-1/2">
+                <img src="../IMG/Le Hoi LSNA.jpg" alt="">
+            </div>
+            <div class="card-capture h-1/2">
+                <a href=""><h1>SỰ KIỆN - HỢP TÁC VĂN HÓA</h1></a>
+                <a href=""><h2>Nhiều hoạt động văn hóa, nghệ thuật chào mừng 30-4</h2></a>
+            </div>
+        </div>
+        <div class="card-items col-span-1 relative">
+            <div class="img h-1/2">
+                <img src="../IMG/Le Hoi LSNA.jpg" alt="">
+            </div>
+            <div class="card-capture h-1/2">
+                <a href=""><h1>SỰ KIỆN - HỢP TÁC VĂN HÓA</h1></a>
+                <a href=""><h2>Nhiều hoạt động văn hóa, nghệ thuật chào mừng 30-4</h2></a>
+            </div>
+        </div>
+        <div class="card-items col-span-1 relative">
+            <div class="img h-1/2">
+                <img src="../IMG/Le Hoi LSNA.jpg" alt="">
+            </div>
+            <div class="card-capture h-1/2">
+                <a href=""><h1>SỰ KIỆN - HỢP TÁC VĂN HÓA</h1></a>
+                <a href=""><h2>Nhiều hoạt động văn hóa, nghệ thuật chào mừng 30-4</h2></a>
+            </div>
+        </div>
+        <div class="card-items col-span-1 relative">
+            <div class="img h-1/2">
+                <img src="../IMG/Le Hoi LSNA.jpg" alt="">
+            </div>
+            <div class="card-capture h-1/2">
+                <a href=""><h1>SỰ KIỆN - HỢP TÁC VĂN HÓA</h1></a>
+                <a href=""><h2>Nhiều hoạt động văn hóa, nghệ thuật chào mừng 30-4</h2></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===============EVENT IN MONTH=============== -->
+    <div class="container-fluid mt-6">
+        <div class="container event mx-auto grid grid-cols-1 lg:grid-cols-2 py-6 gap-6">
+            <div class="news col-span-1 p-3">
+                <div class="news-title pb-3 flex justify-center items-center">
+                    <h1 class="text-center text-3xl font-bold px-2">Tin tức nổi bật</h1>
+                </div>
+                <div class="news-inner grid grid-rows-5 gap-4">
+                    <div class="row-span-3 relative">
+                        <a href=""><img src="../IMG/cach ly sang 24.jpg" alt=""></a>
+                        <div class="news-capture absolute w-full p-2.5 bottom-0 left-0">
+                            <a class="title text-2xl">Sáng 24/4: Việt Nam thêm 2 ca mắc COVID-19, 
+                                thế giới đã trên 146,1 triệu ca </a>
+                            <div class="date-mentor flex flex-row">
+                                <p class="date mr-1">24/04/2021</p>
+                                <p class="mentor"> | đăng bởi <a href="">Mạnh Trần</p></a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-span-1 grid grid-cols-4">
+                        <div class="col-span-1 flex justify-center items-center overflow-hidden">
+                            <a href=""><img src="../IMG/covid-2.jpg" alt=""></a>
+                        </div>
+                        <div class="col-span-3 px-2 ">
+                            <h1 class="mb-2 text-xl font-semibold"><a href=""> Nguy cơ bùng phát dịch covid-19 dịp lễ 30-4</h1></a>
+                            <h3>Cả nước đề cao tinh thần chống dịch dịp lễ lớn 30-4</h3>
+                        </div>
+                    </div>
+                    <div class="row-span-1 grid grid-cols-4">
+                        <div class="col-span-1 flex justify-center items-center overflow-hidden">
+                            <a href=""><img src="../IMG/covidnghean.png" alt=""></a>
+                        </div>
+                        <div class="col-span-3 px-2 ">
+                            <h1 class="mb-2 text-xl font-semibold"><a href=""> Nghệ An phát hiện ca dương tính covid-19 trong khu cách ly</h1></a>
+                            <h3>Một người ở chung phòng cách ly với bệnh nhân 2795 (từ Nhật Bản về) 
+                                vừa có kết quả xét nghiệm dương tính với virus gây bệnh COVID-19</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="events-calendar col-span-1 overflow-scroll p-3">
+                <div class="event-calendar-title pb-3 flex justify-center items-center">
+                    <h1 class="text-center text-3xl font-bold px-2">Sự kiện trong tháng</h1>
+                </div>
+                <div class="events-calendar-inner grid grid-row-5 gap-4">
+                    <div class="row-span-1 grid grid-cols-4">
+                        <div class="col-span-1 flex flex-col justify-center items-center">
+                            <h1 class="date text-center text-3xl font-bold">30</h1>
+                            <h3 class="month text-center">Tháng 4</h3>
+                        </div>
+                        <div class="col-span-3 py-2">
+                            <div class="title-and-capture">
+                                <a href=""><h1 class="text-xl">Tiêu đề sự kiện</h1></a>
+                                <a href=""><h6>Mô tả sự kiện</h6></a>
+                            </div>
+                            <div class="time px-2"><i class="fas fa-clock mr-1"></i>7:00 AM</div>
+                        </div>
+                    </div>
+                    <div class="row-span-1 grid grid-cols-4">
+                        <div class="col-span-1 flex flex-col justify-center items-center">
+                            <h1 class="date text-center text-3xl font-bold">30</h1>
+                            <h3 class="month text-center">Tháng 4</h3>
+                        </div>
+                        <div class="col-span-3 py-2">
+                            <div class="title-and-capture">
+                                <a href=""><h1 class="text-xl">Tiêu đề sự kiện</h1></a>
+                                <a href=""><h6>Mô tả sự kiện</h6></a>
+                            </div>
+                            <div class="time px-2"><i class="fas fa-clock mr-1"></i>7:00 AM</div>
+                        </div>
+                    </div>
+                    <div class="row-span-1 grid grid-cols-4">
+                        <div class="col-span-1 flex flex-col justify-center items-center">
+                            <h1 class="date text-center text-3xl font-bold">30</h1>
+                            <h3 class="month text-center">Tháng 4</h3>
+                        </div>
+                        <div class="col-span-3 py-2">
+                            <div class="title-and-capture">
+                                <a href=""><h1 class="text-xl">Tiêu đề sự kiện</h1></a>
+                                <a href=""><h6>Mô tả sự kiện</h6></a>
+                            </div>
+                            <div class="time px-2"><i class="fas fa-clock mr-1"></i>7:00 AM</div>
+                        </div>
+                    </div>
+                    <div class="row-span-1 grid grid-cols-4">
+                        <div class="col-span-1 flex flex-col justify-center items-center">
+                            <h1 class="date text-center text-3xl font-bold">30</h1>
+                            <h3 class="month text-center">Tháng 4</h3>
+                        </div>
+                        <div class="col-span-3 py-2">
+                            <div class="title-and-capture">
+                                <a href=""><h1 class="text-xl">Tiêu đề sự kiện</h1></a>
+                                <a href=""><h6>Mô tả sự kiện</h6></a>
+                            </div>
+                            <div class="time px-2"><i class="fas fa-clock mr-1"></i>7:00 AM</div>
+                        </div>
+                    </div>
+                    <div class="row-span-1 grid grid-cols-4">
+                        <div class="col-span-1 flex flex-col justify-center items-center">
+                            <h1 class="date text-center text-3xl font-bold">30</h1>
+                            <h3 class="month text-center">Tháng 4</h3>
+                        </div>
+                        <div class="col-span-3 py-2">
+                            <div class="title-and-capture">
+                                <a href=""><h1 class="text-xl">Tiêu đề sự kiện</h1></a>
+                                <a href=""><h6>Mô tả sự kiện</h6></a>
+                            </div>
+                            <div class="time px-2"><i class="fas fa-clock mr-1"></i>7:00 AM</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===================MEDIA LIBRARY================ -->
+    <div class="container-fluid library-background">
+        <div class="container library mx-auto grid grid-cols-1 lg:grid-cols-2 py-4 gap-6">
+            <div class="image-library p-3">
+                <div class="title pb-3">
+                    <h1 class="font-bold text-2xl">THƯ VIỆN HÌNH ẢNH</h1>
+                </div>
+                <div class="image-library-inner grid grid-cols-3 grid-rows-3 gap-4">
+                    <div class="items">
+                        <a href=""><img src="../IMG/resort.jfif" alt=""></a>
+                    </div>
+                    <div class="items">
+                        <a href=""><img src="../IMG/images (2).jfif" alt=""></a>
+                    </div>
+                    <div class="items">
+                        <a href=""><img src="../IMG/images (3).jfif" alt=""></a>
+                    </div>
+                    <div class="items">
+                        <a href=""><img src="../IMG/images.jfif" alt=""></a>
+                    </div>
+                    <div class="items">
+                        <a href=""><img src="../IMG/hoahuongduong.jfif" alt=""></a>
+                    </div>
+                    <div class="items">
+                        <a href=""><img src="../IMG/doinui.jfif" alt=""></a>
+                    </div>
+                    <div class="items">
+                        <a href=""><img src="../IMG/den.jfif" alt=""></a>
+                    </div>
+                    <div class="items">
+                        <a href=""><img src="../IMG/cualo.jfif" alt=""></a>
+                    </div>
+                    <div class="items">
+                        <a href=""><img src="../IMG/qtruong.jfif" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-library p-3">
+                <div class="title pb-3">
+                    <h1 class="font-bold text-2xl">THƯ VIỆN VIDEO</h1>
+                </div>
+                <div class="video-library-inner grid grid-cols-2 grid-rows-2 gap-4">
+                    <div class="items grid grid-rows-5">
+                        <div class="img row-span-4 relative">
+                            <a href=""><img src="../IMG/Lang Sen.jpg" alt=""></a>
+                            <button class="absolute"><i class="fas fa-caret-right"></i></button>
+                        </div>
+                        <div class="capture row-span-1 font-bold pt-2">
+                            <a href=""><h1>Lễ hội làng Sen 2020</h1></a>
+                        </div>
+                    </div>
+                    <div class="items grid grid-rows-5">
+                        <div class="img row-span-4 relative">
+                            <a href=""><img src="../IMG/Lang Sen.jpg" alt=""></a>
+                            <button class="absolute"><i class="fas fa-caret-right"></i></button>
+                        </div>
+                        <div class="capture row-span-1 font-bold pt-2">
+                            <a href=""><h1>Lễ hội làng Sen 2020</h1></a>
+                        </div>
+                    </div>
+                    <div class="items grid grid-rows-5">
+                        <div class="img row-span-4 relative">
+                            <a href=""><img src="../IMG/Lang Sen.jpg" alt=""></a>
+                            <button class="absolute"><i class="fas fa-caret-right"></i></button>
+                        </div>
+                        <div class="capture row-span-1 font-bold pt-2">
+                            <a href=""><h1>Lễ hội làng Sen 2020</h1></a>
+                        </div>
+                    </div>
+                    <div class="items grid grid-rows-5">
+                        <div class="img row-span-4 relative">
+                            <a href=""><img src="../IMG/Lang Sen.jpg" alt=""></a>
+                            <button class="absolute"><i class="fas fa-caret-right"></i></button>
+                        </div>
+                        <div class="capture row-span-1 font-bold pt-2">
+                            <a href=""><h1>Lễ hội làng Sen 2020</h1></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =====================ABOUT NA CULTURAL CENTRAL================== -->
+    <div class="container-fluid about-background">
+        <div class="container about grid grid-cols-1 lg:grid-cols-4 mx-auto py-4 gap-6">
+            <div class="left col-span-1 grid-rows-2">
+                <div class="logo row-span-1 mb-3 flex justify-center">
+                    <img src="../IMG/Logo_NA.png" alt="">
+                </div>
+                <div class="social-media row-span-1 flex flex-row justify-center items-center">
+                    <button><i class="fab fa-facebook-f"></i></button>
+                    <button><i class="fab fa-twitter"></i></i></button>
+                    <button><i class="fab fa-instagram"></i></button>
+                    <button><i class="fab fa-youtube"></i></button>
+                </div>
+            </div>
+            <div class="center col-span-2 pl-4">
+                <h1 class="font-bold mb-6 " style="font-size: 1.5rem;">TRUNG TÂM VĂN HÓA TỈNH NGHỆ AN</h1>
+                <p>Địa chỉ: Số 45 Hồ Tùng Mậu, TP.Vinh, Nghệ An</p>
+                <p>Điện thoại: 0238 3837 228</p>
+                <p>Email: email@gmail.com</p>
+            </div>
+            <div class="right col-span-1 flex flex-col pl-4">
+                <h1 class="font-semibold mb-4 "style="font-size: 1.5rem;">THÔNG TIN</h1>
+                <ul class="leading-6">
+                    <li><a href="">Giới thiệu</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                    <li><a href="">Đóng góp ý kiến</a></li>
+                    <li><a href="">Thư viện</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ====================FOOTER========================== -->
+    <div class="container-fluid w-full py-2" style="background-color: #1F1E23;color: white">
+        <p class="text-center">© 2021 Trung tâm Văn Hóa tỉnh Nghệ An. All rights reserved.</p>
+    </div>
+    <!-- ===============Script================= -->
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="../JS/slickjs/slick/slick.min.js"></script>
+    <script src="../JS/Home.js"></script>
+        <!-- ============SCRIPT FOR SIDE BAR MENU============ -->
+        <script>
+            $('.btn').click(function(){
+            $(this).toggleClass("click");
+            $('.sidebar').toggleClass("show");
+            });
+            $('.feat-btn').click(function(){
+                $('nav ul .feat-show').toggleClass("show");
+                $('nav ul .first').toggleClass("rotate");
+            });
+            $('.serv-btn').click(function(){
+                $('nav ul .serv-show').toggleClass("show1");
+                $('nav ul .second').toggleClass("rotate");
+            });
+            $('nav ul li').click(function(){
+                $(this).addClass("active").siblings().removeClass("active");
+            });
+        </script>
+        <script>
+            window.addEventListener("scroll", function(){
+                var navbar = document.querySelector(".blue-background");
+                navbar.classList.toggle("sticky", window.scrollY > 0);
+            });
+        </script>
+</body> 
+</html>

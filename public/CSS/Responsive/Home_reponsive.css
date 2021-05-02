@@ -1,0 +1,25 @@
+ @media (max-width: 991px){
+     .header .logo{
+         display: none;
+     }
+     .btn{
+         display: block;
+     }
+     .blue-background .navbar{
+         display: none;
+     }
+     .blue-background{
+         position: relative !important
+     }
+ }
+ @media (max-width: 836px){
+    .dark-mode.darkmode ~ div{
+        filter: brightness(30%);
+        transition: .3s ease
+    }
+ }
+ @media (max-width: 1024px){
+    .banner{
+        max-height: 1000px !important;
+    }
+ }
